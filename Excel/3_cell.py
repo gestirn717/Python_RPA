@@ -25,7 +25,7 @@ print(ws.cell(row=1, column=2).value) #ws["B1"].value
 
 ws.cell(column=3, row=1, value=10) # ws["C1"].value = 10 / ws["C1"] = 10 이랑 동일
 print(ws["C1"].value) #c1의 값을 출력
-
+ 
 ws.cell(row=1,column=1)
 
 # 반복뮨을 이용해서 랜덤 숫자 채움
